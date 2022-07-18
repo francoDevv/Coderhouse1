@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabeza {
+    background-color:#deb887;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+
+.logoHeader {
+    width: 70px;
+    height: 70px;
+}
+
+/* .navbar {
+    float: left;
+    display: inline;
+} */
+
+.ulLista {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    /* display: inline; */
+}
+
+li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color:black;
+    /*float: left;
+    /*background-color: blueviolet;*/
+}
+
+.cuerpo {
+    padding-bottom: 30px;
+    background-color: #cdf0e8;
+    border: 2px solid black;
+    margin: 15px;
+}
+
+.fuente {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-image: url("https://picsum.photos/800?random=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2 {
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    padding-bottom: 17px;
+    padding-top: 7px;
+}
+
+.pie {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(54, 150, 150);
+}
+
+.foot {
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+
+.foot_space {
+    padding-bottom: 20px;
+}
+
+.spaceMapa {
+    padding-bottom: 15px;
+}
+
+.formulario {
+    padding-top: 8px;
+    padding-bottom: 13px;
+}

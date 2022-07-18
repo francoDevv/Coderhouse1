@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* CSS header*/
+header {
+    background-color: #E2CAD0;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.menu {
+    list-style: none;
+    margin-left: 2%;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.logoHeader {
+    width: 13%;
+    height: auto;
+}
+/* TERMINAMOS EL HEADER */
+
+/* EMPEZAMOS EL INDEX MAIN*/
+.imgPrincipal{
+    background-color:#D1CFE2;
+    text-align: center;
+    /* margin-bottom: 5px; */
+}
+
+.imgPrincipalMedidas{
+    width: 75%;
+}
+
+.tituloPrincipal{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    background-color: #ADBBD7;
+}
+
+.colorFondo{
+    background-color: #B5DDE3;
+}
+
+.imgProductos{
+    display: inline-block;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: auto;
+    background-color: #B5DDE3;
+}
+
+.imgProductosMedidas{
+    padding: 80px;
+    display: inline-block;
+}
+/* TERMINAMOS EL INDEX MAIN*/
+
+/* EMPEZAMOS EL FOOTER*/
+
+footer{
+    background-color: #8FCDE0;
+}
+
+.logoFooter{
+    width: 10%;
+    /* height: 80px; */
+    margin-bottom: 40px;
+}
+
+.footerRRSS{
+    display: inline-block
+}
+
+.imgFooterRRSS{
+    display: inline-block;
+    width: 9%;
+    height: 50px;
+    padding: 20px;
+    margin-bottom: 45px;
+}
+
+.footerMediosDePago{
+    display: inline-block;
+    /* margin-top: 100px; */
+}
+
+.imgFooterMediosDePago{
+    display: block;
+    width: 60px;
+    height: 40px;
+    padding: 5px;
+}
+
+.footerContactanos{
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    padding: 15px;
+}
+    
+.footerContacto{
+    width: 40px;
+    height: 40px;
+}
+
+.footerMapa{
+    display: inline-block;
+}
+
+.mapaMedidas{
+    width: auto;
+}
+
+/* TERMINAMOS EL FOOTER*/
