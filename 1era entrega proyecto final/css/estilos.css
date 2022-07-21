@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* HEADER */
+header {
+    background-color: #E2CAD0;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.menu {
+    list-style-type: none;
+    margin-left: 2%;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+
+.logoHeader {
+    width: 13%;
+    height: auto;
+}
+/* FIN HEADER */
+
+/* INICIO MAIN*/
+.imgPrincipal{
+    background-color:#D1CFE2;
+    text-align: center;
+}
+
+.imgPrincipalMedidas{
+    width: 75%;
+}
+
+.tituloPrincipal{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    background-color: #ADBBD7;
+    padding: 5px;
+}
+
+.tituloSecundario{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.parrafo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.colorFondo{
+    background-color: #B5DDE3;
+}
+
+.imgProductos{
+    display: inline-block;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: auto;
+    background-color: #B5DDE3;
+}
+
+.imgProductosMedidas{
+    padding: 80px;
+    display: inline-block;
+}
+
+.sectionForm{
+    background-color: #B5DDE3;
+    width: 70%;
+    padding: 25px;
+    margin: auto ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario{
+    display: inline-block;
+    /* margin-left: 25%; */
+    /* padding-top: 12px; */
+    width: 40%;
+    /* padding-right: 100px; */
+    margin: 0 60px;
+    padding: auto;
+}
+
+.formularioInput{
+    width: 100%;
+    padding: 10px;
+}
+
+.span{
+    display: block;
+    margin-top: 10px;
+}
+
+.formularioConsulta{
+    margin-left: 60px;
+}
+
+.formularioInputConsulta{
+    width: 68.4%;
+    padding: 170px;
+}
+
+.button{
+    margin-left: 60px;
+    margin-top: 15px;
+    width: 91.2%;
+    padding: 10px;
+    background-color: rgb(183, 130, 231);
+}
+
+/* FIN MAIN*/
+
+/* INICIO FOOTER*/
+
+footer{
+    background-color: #8FCDE0;
+    padding-top: 7.5px;
+}
+
+.logoFooter{
+    width: 10%;
+    margin-bottom: 40px;
+}
+
+.footerRRSS{
+    display: inline-block
+}
+
+.imgFooterRRSS{
+    display: inline-block;
+    width: 9%;
+    height: 50px;
+    padding: 20px;
+    margin-bottom: 45px;
+}
+
+.footerMediosDePago{
+    display: inline-block;
+}
+
+.imgFooterMediosDePago{
+    display: block;
+    width: 60px;
+    height: 40px;
+    padding: 5px;
+}
+
+.footerContactanos{
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    padding: 15px;
+}
+    
+.footerContacto{
+    width: 40px;
+    height: 40px;
+}
+
+.footerMapa{
+    display: inline-block;
+}
+
+.mapaMedidas{
+    width: auto;
+}
+
+/* FIN FOOTER*/
